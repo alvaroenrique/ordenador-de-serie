@@ -1,0 +1,41 @@
+<html>
+
+<head>
+	<title>Parcel Sandbox</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+	<script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9"
+	 crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header>
+		<h1>Ordenador de serie</h1>
+		<div>
+			<span>GitHub</span>
+			<i class="fab fa-github fa-3x"></i>
+		</div>
+	</header>
+	<div id="app">
+		<p>Para ingresar un número presiona el botón agregar o la tecla enter.</p>
+		<div>
+			<input type="number">
+			<button id="agregar">Agregar</button>
+		</div>
+
+		<div id="mensaje"></div>
+
+		<h3>Números ingresados</h3>
+		<button id="limpiar" class="limpiar"><i class="far fa-edit"></i> Limpiar</button>
+		<div id="lista" class="wrap lista"></div>
+		<h3>Ordenamiento ascendente</h3>
+		<div id="listOrdenada" class="wrap lista"></div>
+
+	</div>
+
+	<script src="src/index.js"></script>
+</body>
+
+</html>
