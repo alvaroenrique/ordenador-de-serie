@@ -5,6 +5,7 @@ const input = document.querySelector("input");
 const divLista = document.getElementById("lista");
 const divListOrdenada = document.getElementById("listOrdenada");
 const divMensaje = document.getElementById("mensaje");
+const divGit = document.getElementById("git");
 
 const btnAgregar = document.getElementById("agregar");
 const btnLimpiar = document.getElementById("limpiar");
@@ -20,6 +21,12 @@ btnAgregar.addEventListener("click", () => {
 });
 btnLimpiar.addEventListener("click", () => {
   limpiar();
+});
+divGit.addEventListener("click", () => {
+  window.open(
+    "https://github.com/alvaroenrique/ordenador-de-serie/tree/master",
+    "_blank"
+  );
 });
 // Funciones
 function agregarElemento() {
